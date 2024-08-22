@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <header class="container">
+      <div class="header__content">
+        <img id="header__img" src="notepad.png" alt="notepad logo" />
+        <h1 class="header__text">My Shopping List</h1>
+      </div>
+    </header>
+    <main>
+      <section class="form container section">
+       
+
+        <div class="form-content">
+
+          <form id="item-form">
+            <div class="form-control">
+              <input
+                type="text"
+                class="form-input"
+                id="item-input"
+                name="item"
+                placeholder="Enter Item"
+              />
+            </div>
+
+            <div class="form-control">
+              <button type="submit" class="btn">
+                <i class="lni lni-plus"></i> Add Item
+              </button>
+            </div>
+          </form>
+
+          <div class="filter">
+            <input
+              type="text"
+              class="form-input-filter"
+              id="filter"
+              placeholder="Filter Items"
+            />
+          </div>
+       
+      </section>
+
+
+
+      <section class=" items-container section">
+       
+        <ul id="item-list" class="items">
+
+          <!-- <li class="list-content">
+            Apples
+            <button class="icon-button">
+              <div class="icons">
+              <i class="lni lni-pencil"></i>
+              <i class="lni lni-trash-can"></i>
+              </div>
+            </button>
+          </li>
+
+          <li class="list-content">
+            Orange Juice
+            <button class="icon-button">
+              <div class="icons">
+              <i class="lni lni-pencil"></i>
+              <i class="lni lni-trash-can"></i>
+            </div>
+            </button>
+          </li>
+
+          <li class="list-content">
+            Oreos
+            <button class="icon-button">
+              <div class="icons">
+              <i class="lni lni-pencil"></i>
+              <i class="lni lni-trash-can"></i>
+            </div>
+            </button>
+          </li>
+
+          <li class="list-content">
+            Milk
+            <button class="icon-button">
+              <div class="icons">
+              <i class="lni lni-pencil"></i>
+             <i class="lni lni-trash-can"></i>
+            </div>
+            </button>
+          </li> -->
+
+        </ul>
+<div class="clear-box">
+        <button id="clear" class="btn-clear">Clear All</button>
+
+      </div>
+
+      </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

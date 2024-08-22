@@ -1,0 +1,75 @@
+.items {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  /* border: 1px solid red; */
+}
+
+.list-content {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: var(--size-xs);
+  /* border: 1px solid blue; */
+}
+
+.btn-clear {
+  width: 300px;
+  font-size: var(--size-xs);
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+.clear-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#clear {
+  display: none;
+}
+
+.btn-clear:hover {
+  background-color: #f1f1f1;
+}
+.hidden {
+  display: none;
+}
+
+.icon-button {
+  display: flex;
+  /* font-size: 1rem; */
+}
+
+.icons {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* Sm */
+/*@media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {}  */
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1280px) {}  */
+
+/* 2xL */
+/* @media (min-width: 1536px) {} */

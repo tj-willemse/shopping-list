@@ -1,0 +1,90 @@
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* Sm */
+/*@media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {}  */
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1280px) {}  */
+
+/* 2xL */
+/* @media (min-width: 1536px) {} */
+
+/* Buttons */
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.section {
+  margin-top: 10px;
+}
+/* .title{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family:var(--font-secondary);
+    color: var(--clr-dark);
+    font-size: var(--size-xs);
+} */
+
+.container {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 0.5rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* xL */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xL */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
